@@ -1,0 +1,31 @@
+{
+  "name": "linear-regression-js",
+  "version": "1.0.0",
+  "description": "Simple and complex linear regressions with javascript made easy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhaymisonbetini/linear-regression-js.git"
+  },
+  "keywords": [
+    "linear",
+    "regression",
+    "linear-regression",
+    "javascript",
+    "ia",
+    "tensor-flow",
+    "machine-learning"
+  ],
+  "author": "rhaymisonbetini <rhaymisoncristian@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhaymisonbetini/linear-regression-js/issues"
+  },
+  "homepage": "https://github.com/rhaymisonbetini/linear-regression-js#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.4.0"
+  }
+}
