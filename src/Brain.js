@@ -46,10 +46,13 @@ class Brain {
         let resultado5 = y.mean().sub(resultado4.mul(x.mean()));
 
         let tensor = resultado4.mul(p).add(resultado5);
-        let array = await Utils.tensorToArray(tensor);
+        let array = Utils.tensorToArray(tensor);
         return array;
 
     }
+
+
+    
 }
 
 module.exports = Brain;
