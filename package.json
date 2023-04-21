@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/rhaymisonbetini/linear-regression-js#readme",
   "dependencies": {
-    "@tensorflow/tfjs": "^4.4.0"
+    "@tensorflow/tfjs": "^4.4.0",
+    "@tensorflow/tfjs-node": "^4.4.0"
   }
 }
