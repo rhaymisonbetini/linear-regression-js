@@ -1,7 +1,11 @@
 # LINEAR REGRESSION JS
 
 Library for linear regression in Javascript.
-You can use it directly in the browser or run it on your backend in Node.
+You can run it on your backend in Node!
+
+<div align="center">
+  <img src="./src/assets/banner.png" width="100%" height="150"/>
+</div>
 
 <p align="center">
    <img src="https://img.shields.io/bower/l/MI?style=flat-square">
