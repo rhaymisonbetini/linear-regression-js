@@ -37,18 +37,18 @@ You can run it on your backend in Node!
 # INSTALL
 
 ```
-npm install linear-regression-js
+npm install linear-regression-tfjs
 ```
 
 how to use linear regression
 
 ```javascript
-const LinearRegressionJs = require('linear-regression-js')
+const LinearRegressionJs = require('linear-regression-tfjs')
 ```
 or
 
 ```javascript
-import LinearRegressionJs from 'linear-regression-js'
+import LinearRegressionJs from 'linear-regression-tfjs'
 ```
 
 ```javascript
