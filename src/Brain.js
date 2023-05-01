@@ -24,7 +24,7 @@ class Brain {
 
             for (let i = 0; i < difSize; i++) {
                 let predict = await this.linarRegressionCalc(tempOne, tempTwo, vetorX[twoSize + i]);
-                regression.push(predict);
+                regression.push(parseFloat(predict.toFixed(2)));
             }
 
             let newY = tempTwo.concat(regression);
@@ -50,8 +50,6 @@ class Brain {
         return array;
 
     }
-
-
     
 }
 
