@@ -23,10 +23,6 @@ You can run it on your backend in Node!
    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
    <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
    <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
-   <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white">
-   <img src="https://img.shields.io/badge/AngularJS-E23237?style=for-the-badge&logo=angularjs&logoColor=white">
-   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-   <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D">
 </p>
 
 <p align="center">
@@ -38,4 +34,62 @@ You can run it on your backend in Node!
   </a>
 </p>
 
-[DEVELOPMENT]
+# INSTALL
+
+```
+npm install linear-regression-js
+```
+
+how to use linear regression
+
+```javascript
+const LinearRegressionJs = require('linear-regression-js')
+```
+or
+
+```javascript
+import LinearRegressionJs from 'linear-regression-js'
+```
+
+```javascript
+let linearRegressionJs = new LinearRegressionJs();
+```
+
+Now everything is ready for you to start making two predictions with your library!
+
+# METHODS
+
+### linearRegression
+
+This asynchronous method returns a simple linear regression output.
+This method accepts two numeric arrays as an argument.
+
+```javascript
+async linearRegression(x = [], y = [])  
+```
+Let's view an example:
+
+```javascript
+    let predict = await linearRegressionJs.linearRegression([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [10, 20, 30, 40, 50, 60])
+```
+Note that the first argument has a larger dimension. So we want to have the prediction of the indices that 
+don't exist in y. So we see that y is a function of x
+
+The return of this function will be...
+
+```javascript
+{
+  one: [
+    1, 2, 3, 4,  5,
+    6, 7, 8, 9, 10
+  ],
+  predict: [
+    10, 20, 30, 40,  50,
+    60, 70, 80, 90, 100
+  ]
+}
+```
+Cool!!!
+
+
+
