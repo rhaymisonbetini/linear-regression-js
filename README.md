@@ -9,7 +9,7 @@ You can run it on your backend in Node!
 
 <p align="center">
    <img src="https://img.shields.io/bower/l/MI?style=flat-square">
-   <img src="https://img.shields.io/badge/version-1.0.2-blue">
+   <img src="https://img.shields.io/badge/version-1.0.3-blue">
    <img src="https://img.shields.io/npm/dy/linear-regression-tfjs">
    <img alt="npm" src="https://img.shields.io/npm/dm/linear-regression-tfjs">
    <img alt="npm" src="https://img.shields.io/npm/dw/linear-regression-tfjs">
@@ -37,7 +37,7 @@ You can run it on your backend in Node!
 # INSTALL
 
 ```
-npm install linear-regression-tfjs
+npm i linear-regression-tfjs
 ```
 
 how to use linear regression

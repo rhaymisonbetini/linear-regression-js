@@ -1,6 +1,6 @@
 {
   "name": "linear-regression-tfjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple and complex linear regressions with javascript made easy",
   "main": "index.js",
   "scripts": {
