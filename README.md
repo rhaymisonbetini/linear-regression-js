@@ -10,13 +10,13 @@ You can run it on your backend in Node!
 <p align="center">
    <img src="https://img.shields.io/bower/l/MI?style=flat-square">
    <img src="https://img.shields.io/badge/version-1.0.0-blue">
-   <img src="https://img.shields.io/npm/dy/linear-regression-js">
-   <img alt="npm" src="https://img.shields.io/npm/dm/linear-regression-js">
-   <img alt="npm" src="https://img.shields.io/npm/dw/linear-regression-js">
-   <img src="https://img.shields.io/github/issues/rhaymisonbetini/linear-regression-js.svg">
-   <img src="https://img.shields.io/github/issues-closed/rhaymisonbetini/linear-regression-js.svg">
-   <img src="https://img.shields.io/github/issues-pr/rhaymisonbetini/linear-regression-js.svg">
-   <img src="https://img.shields.io/github/issues-pr-closed/rhaymisonbetini/linear-regression-js.svg">
+   <img src="https://img.shields.io/npm/dy/linear-regression-tfjs">
+   <img alt="npm" src="https://img.shields.io/npm/dm/linear-regression-tfjs">
+   <img alt="npm" src="https://img.shields.io/npm/dw/linear-regression-tfjs">
+   <img src="https://img.shields.io/github/issues/rhaymisonbetini/linear-regression-tfjs.svg">
+   <img src="https://img.shields.io/github/issues-closed/rhaymisonbetini/linear-regression-tfjs.svg">
+   <img src="https://img.shields.io/github/issues-pr/rhaymisonbetini/linear-regression-tfjs.svg">
+   <img src="https://img.shields.io/github/issues-pr-closed/rhaymisonbetini/linear-regression-tfjs.svg">
 </p>
 
 <p align="center">
