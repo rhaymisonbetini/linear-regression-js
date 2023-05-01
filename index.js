@@ -23,6 +23,7 @@ class LinearRegressionJs {
     async asyncompileAndTrain(x, y, epochs, prefix) {
         let model = await this.neuralNetwork.compileModelNode(x, y, epochs);
         await model.save(`file://${prefix}`);
+        return {message:"SUCCESS"}
     }
 
     async linearRegressionNode(model, y) {
